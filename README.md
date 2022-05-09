@@ -17,3 +17,11 @@ Next, you switch back to your personal branch using
 `git switch <branch>` or `git checkout <branch>`.
 
 Finally, you merge changes using `git merge main` (ie the name of the branch you're trying to *merge into the currently checkout branch*.
+
+
+## Stash and merge changes
+
+If you have in-flight changes on your local development,
+merging can get a bit more complicated.
+
+If you have work that is not yet committed and try to merge from another branch, git will typically raise an error.
